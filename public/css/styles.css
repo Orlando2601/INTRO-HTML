@@ -1,2 +1,41 @@
+/*Agregar color de fondo al logo de mercaadoliebre*/
+header{
+    background-color: yellow;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+
+/*Agregar propiedades a barra de busqueda*/
 .barraDeBusqueda{font-family: monospace; font-size: large; color: orangered;}
-#credito{font-family: monospace; font-size: large; color: orangered;}
+
+/*Agregar Propiedades a titulo Compra con credito y sin tarjeta de credito*/
+#credito{font-family: Roboto; font-size: 24px; color: #666; font-weight: bold;}
+
+/*Agregar propiedades al menu de navegacion */
+
+.primerListado{
+    font-size: 20px;
+    font-family: Roboto;
+    color:#666;
+
+}
+.segundoListado{
+    font-size: 20px;
+    font-family: Roboto;
+    color:#666
+
+}
+
+/*Agregar propiedades al menu hamburguesa*/
+#barras{
+    font-size: 60px;
+    color: white;
+    padding-left:50vw;
+    border: solid 10px rgba(red, green, blue, 100);
+    box-sizing: border-box;
+}
+.img_promocion{
+max-width: 100%;
+
+}

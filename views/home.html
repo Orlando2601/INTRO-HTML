@@ -6,19 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    rel="stylesheet" />
+    <!--Fuente Roboto de google-->
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&family=Indie+Flower&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <!--Logo de la pagina-->
-        <img src="images/logo-mercado-liebre.svg" alt="Imagen logo">
+        <img class="imagenlogo" src="images/logo-mercado-liebre.svg" alt="Imagen logo">
+        
         <p class="barraDeBusqueda">Lugar para poner barra de busqueda</p>
+
         <p id="credito">Compra en cuotas y sin tarjeta de credito</p>
         <!--Esta es la barra de navegacion con los item solicitados-->
         <nav>
             <!--Esto se utiliza para crear listas más rapido
                 ul>li*4>-->
-            
-            <ul>
+            <!--Primer listado del header-->
+            <ul class="primerListado">
                 <li>
                     <a href="Ofertas" >Ofertas</a>
                 </li>
@@ -29,7 +35,8 @@
                     <a href="Vender">Vender</a>
                 </li>
             </ul>
-            <ul>
+            <!--Segundo listado del header-->
+            <ul class="segundoListado">
                 <li>
                     <a href="Creá tu cuenta">Creá tu cuenta</a>
                 </li>
@@ -42,61 +49,18 @@
             </ul>
     
         </nav>
-        <img src="/images/img-home-banner.jpg" alt="">
+        <!--Menu hamburguesa-->
+        <div class="burger-menu">
+            <i id="barras" class="fas fa-bars"></i>
+            
+        </div>
+        <!--Imagen grande en el header sonbre promociones-->
+            <img class="img_promocion" src="/images/img-home-banner.jpg" alt="">
+       
     </header>
+
     <main>
-        <!--Creamos las dos secciones,
-             basado en ultima visita y ofertas-->
-             <h2>Basado en tu última visita</h2>
-        <section>
-            <img src="/images/img-cafetera-moulinex.jpg" alt="imagen de la cafetera">
-            <p>$6.770</p>
-            <p>40% OFF</p>
-            <p>Cafetera Moulinex</p>
 
-            <img src="/images/img-macbook-pro-2019.jpg" alt="imagen de la cafetera">
-            <p>$230.000</p>
-            <p>20% OFF</p>
-            <p>MacBook Pro 2019</p>
-
-            <img src="/images/img-samsung-galaxy-s10.jpg" alt="imagen de la cafetera">
-            <p>$70.500</p>
-            <p>10% OFF</p>
-            <p>Samsung Galaxy S10</p>
-
-            <img src="/images/img-tv-samsung-smart.jpg" alt="imagen de la cafetera">
-            <p>$23.200</p>
-            <p>5% OFF</p>
-            <p>SmartTv Samsung 43"</p>
-
-
-        </section>
-        <h2>Ofertas</h2>
-        <section>
-            <img src="/images/img-cafetera-moulinex.jpg" alt="imagen de la cafetera">
-            <p>$6.770</p>
-            <p>40% OFF</p>
-            <p>Cafetera Moulinex</p>
-
-            <img src="/images/img-macbook-pro-2019.jpg" alt="imagen de la cafetera">
-            <p>$230.000</p>
-            <p>20% OFF</p>
-            <p>MacBook Pro 2019</p>
-
-            <img src="/images/img-samsung-galaxy-s10.jpg" alt="imagen de la cafetera">
-            <p>$70.500</p>
-            <p>10% OFF</p>
-            <p>Samsung Galaxy S10</p>
-
-            <img src="/images/img-tv-samsung-smart.jpg" alt="imagen de la cafetera">
-            <p>$23.200</p>
-            <p>5% OFF</p>
-            <p>SmartTv Samsung 43"</p>
-        </section>
-        
-        
-
-        
         
         
 
