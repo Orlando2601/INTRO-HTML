@@ -5,37 +5,82 @@ header{
     box-sizing: border-box;
 }
 
+.img_logo{
+    width: 100vw;
+    box-sizing:border-box
+}
+
 
 /*Agregar propiedades a barra de busqueda*/
-.barraDeBusqueda{font-family: monospace; font-size: large; color: orangered;}
+.barraDeBusqueda{
+    font-family: Roboto;
+    font-size: large;
+     color: orangered;}
 
 /*Agregar Propiedades a titulo Compra con credito y sin tarjeta de credito*/
-#credito{font-family: Roboto; font-size: 24px; color: #666; font-weight: bold;}
+
+.txt_credito_sin_tarjeta i{
+    display:inline;
+    margin-top: 25px;
+    margin-left: 10vw;
+    font-size: 30px;
+
+}
+.txt_credito_sin_tarjeta p{
+    display: inline ;
+    margin-top: 25px;
+    margin-left: 1vw;
+    font-family: Roboto;
+    font-size: 24px;
+    color: #666;
+    font-weight: bold;
+}
+
 
 /*Agregar propiedades al menu de navegacion */
 
 .primerListado{
-    font-size: 20px;
+    font-size: 30px;
     font-family: Roboto;
     color:#666;
 
 }
-.segundoListado{
-    font-size: 20px;
-    font-family: Roboto;
-    color:#666
 
+.segundoListado a{
+    display:inline;
+    margin-top: 40px;
+    font-family: Roboto;
+    font-size: 30px;
+
+}
+.segundoListado i{
+    font-size: 30px;
 }
 
 /*Agregar propiedades al menu hamburguesa*/
-#barras{
+
+
+.btn_menu_hamburguesa{
+    margin-left: 45.5vw;
+    margin-right: 49.5vw;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 10px;
     font-size: 60px;
+    height: 90px;
+    width: 90px;
     color: white;
-    padding-left:50vw;
-    border: solid 10px rgba(red, green, blue, 100);
-    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    background-color:blue;
+    box-sizing: border-box;   
 }
+
+/*Agregar propiedades a la imagen de promocion*/
 .img_promocion{
-max-width: 100%;
+width: 100vw;
 
 }
