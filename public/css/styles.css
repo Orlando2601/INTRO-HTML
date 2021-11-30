@@ -2,7 +2,10 @@
 header{
     background-color: yellow;
     width: 100vw;
+    padding:10px;
     box-sizing: border-box;
+    
+
 }
 
 .img_logo{
@@ -23,7 +26,7 @@ header{
     display:inline;
     margin-top: 25px;
     margin-left: 10vw;
-    font-size: 30px;
+    font-size: 2em
 
 }
 .txt_credito_sin_tarjeta p{
@@ -54,7 +57,7 @@ header{
 
 }
 .segundoListado i{
-    font-size: 30px;
+    font-size: 2em;
 }
 
 /*Agregar propiedades al menu hamburguesa*/
@@ -82,5 +85,43 @@ header{
 /*Agregar propiedades a la imagen de promocion*/
 .img_promocion{
 width: 100vw;
+box-sizing:border-box
 
+}
+
+/*Propiedades visuales del contendido */
+.seccion_basado_ultima_visita img{
+    width: 100vw;
+    padding:10px;
+    box-sizing:border-box
+    
+}
+.seccion_basado_ultima_visita #precios{
+    font-family: Roboto;
+    font-size:18px ;
+    font-weight: 900;
+    
+    box-sizing:border-box
+    
+}
+.seccion_basado_ultima_visita #descuentos{
+    font-family: Roboto;
+    font-size:16px ;
+    font-weight: 900;
+    box-sizing:border-box
+    
+}
+.seccion_basado_ultima_visita #descripciones{
+    font-family: Roboto;
+    font-size:16px ;
+    font-weight: 900;
+    box-sizing:border-box
+    
+}
+
+footer section{
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: center;
+    display: inline;    
 }
