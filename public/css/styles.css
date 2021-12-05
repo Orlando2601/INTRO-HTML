@@ -1,3 +1,37 @@
+/*Con la siguiente linea importamos la fuente elegida desde google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&family=Indie+Flower&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;400;700&display=swap');
+/*NORMALIZACION*/
+/*Con el siguiente bloque definimos las propiedades de caja de todos los contenedores*/
+* {
+    margin: 0;
+    padding: 0;
+    /*con esta propiedad definimos que el margin y el padding sean incluidos dentro del tamaño de las cajas*/
+    box-sizing: border-box;
+
+}
+/*Con este bloque escalamos el fontsize de html que viene por defecto en 16px a 10 px siendo 10 px el 62.5% del valor por defecto que es 16px*/
+html {
+    font-size: 62.5%;
+}
+/*a traves de este bloque :root podemos declarar variables para guardar los colores predeterminados de nuestro sitio*/
+:root {
+    /*Declaración de paleta de colores*/
+    --amarillo: #eac926;
+    --azul: #03264c;
+    --celeste: #1259c3;
+    --gris-oscuro: #666;
+    --gris-claro: #ebebeb;
+    --verde: #39b54a;
+    /*Declaracion de los tamaños de las fuentes, basados en */
+    --text-sm: 1.2em;
+    --text-md: 1.6em;
+    --text-lg: 1.8em;
+    --title-md: 2.4em;
+    /*Fuentes descargadas*/
+    --roboto-font: 'Roboto', sans-serif;
+  }
+  
+
 /*Agregar color de fondo al logo de mercaadoliebre*/
 header{
     background-color: yellow;
@@ -16,7 +50,7 @@ header{
 
 /*Agregar propiedades a barra de busqueda*/
 .barraDeBusqueda{
-    font-family: Roboto;
+    font-family: var(--roboto-font);
     font-size: large;
      color: orangered;}
 
@@ -33,7 +67,7 @@ header{
     display: inline ;
     margin-top: 25px;
     margin-left: 1vw;
-    font-family: Roboto;
+    font-family: var(--roboto-font);
     font-size: 24px;
     color: #666;
     font-weight: bold;
@@ -44,7 +78,7 @@ header{
 
 .primerListado{
     font-size: 30px;
-    font-family: Roboto;
+    font-family: var(--roboto-font);
     color:#666;
 
 }
@@ -52,7 +86,7 @@ header{
 .segundoListado a{
     display:inline;
     margin-top: 40px;
-    font-family: Roboto;
+    font-family: var(--roboto-font);
     font-size: 30px;
 
 }
@@ -93,19 +127,20 @@ box-sizing:border-box
 .seccion_basado_ultima_visita img{
     width: 100vw;
     padding:10px;
-    box-sizing:border-box
+    box-sizing:border-box;
+    margin-left: center;
     
 }
 .seccion_basado_ultima_visita #precios{
-    font-family: Roboto;
+    font-family: var(--roboto-font);
     font-size:18px ;
     font-weight: 900;
-    
+    margin-left: center;
     box-sizing:border-box
     
 }
 .seccion_basado_ultima_visita #descuentos{
-    font-family: Roboto;
+    font-family: var(--roboto-font);
     font-size:16px ;
     font-weight: 900;
     box-sizing:border-box
@@ -119,7 +154,7 @@ box-sizing:border-box
     
 }
 
-footer section{
+footer{
     font-family: Roboto;
     font-size: 16px;
     text-align: center;

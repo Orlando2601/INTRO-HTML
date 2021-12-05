@@ -49,3 +49,481 @@
         
         <i class="far fa-id-card"></i>
 
+
+        
+      <!--Codigo HTML creado por el profe-->
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a MercadoLiebre</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <picture class="logo">
+                <img src="/img/logo-mercado-liebre.svg" alt="Logo de Mercadoliebre">
+            </picture>
+            <div class="form">
+                <div class="input">Buscar productos, marcas y más</div>
+                <div class="submit"><i class="fas fa-search"></i></div>
+            </div>
+            <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Ofertas</a>
+                </li>
+                <li>
+                    <a href="#">Tiendas Oficiales</a>
+                </li>
+                <li>
+                    <a href="#">Vender</a>
+                </li>
+                <li>
+                    <a href="#">Ayuda</a>
+                </li>
+            </ul> <!--FIN MENU 1-->
+            <ul>
+                <li>
+                    <a href="#">Creá tu cuenta <i class="far fa-id-card"></i></a>
+                </li>
+                <li>
+                    <a href="#">Ingresá <i class="fas fa-sign-in-alt"></i></a>
+                </li>
+                <li>
+                    <a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a>
+                </li>
+            </ul> <!--FIN MENU 2-->
+        </nav> <!--FIN NAV-->
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header> <!--FIN HEADER-->
+    <section>
+        <img src="/img/img-home-banner.jpg" alt="Banner del sitio Mercado Liebre">
+    </section>
+    <main>
+        <section>
+            <h2>Basado en tu última visita</h2>
+            <article>
+                <img src="/img/img-cafetera-moulinex.jpg" alt="">
+                <p>$6.770</p>
+                <p>40% OFF</p>
+                <h3>Cafetera Moulinex</h3>
+                <!--iconito de camión-->
+            </article>
+            <article>
+                <img src="/img/img-macbook-pro-2019.jpg" alt="">
+                <p>$230.000</p>
+                <p>20% OFF</p>
+                <h3>Macbook Pro 2019</h3>
+                <!--iconito de camión-->
+            </article>
+            <article>
+                <img src="/img/img-samsung-galaxy-s10.jpg" alt="">
+                <p>$70.500</p>
+                <p>10% OFF</p>
+                <h3>Samsung Galaxy S10</h3>
+                <!--iconito de camión-->
+            </article>
+            <article>
+                <img src="/img/img-tv-samsung-smart.jpg" alt="">
+                <p>$23.200</p>
+                <p>5% OFF</p>
+                <h3>SmartTv Samsung 43"</h3>
+                <!--iconito de camión-->
+            </article>
+        </section>
+        <section>
+            <h2>Sección de Ofertas</h2>
+            <img src="/img/img-cafetera-moulinex.jpg" alt="">
+            <p>$6.770</p>
+            <p>40% OFF</p>
+            <h3>Cafetera Moulinex</h3>
+            <!--iconito de camión-->
+            <img src="/img/img-macbook-pro-2019.jpg" alt="">
+            <p>$230.000</p>
+            <p>20% OFF</p>
+            <h3>Macbook Pro 2019</h3>
+            <!--iconito de camión-->
+            <img src="/img/img-samsung-galaxy-s10.jpg" alt="">
+            <p>$70.500</p>
+            <p>10% OFF</p>
+            <h3>Samsung Galaxy S10</h3>
+            <!--iconito de camión-->
+            <img src="/img/img-tv-samsung-smart.jpg" alt="">
+            <p>$23.200</p>
+            <p>5% OFF</p>
+            <h3>SmartTv Samsung 43"</h3>
+            <!--iconito de camión-->
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
+
+
+          <!--Codigo CSS creado por el profe-->
+          /* IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+/* NORMALIZACIÓN */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIABLES */
+
+:root {
+  /* colores */
+  --amarillo: #eac926;
+  --azul: #03264c;
+  --celeste: #1259c3;
+  --gris-oscuro: #666;
+  --gris-claro: #ebebeb;
+  --verde: #39b54a;
+  --negro: #000000;
+  --blanco: #ffffff;
+  /* tamaños de fuentes */
+  --text-sm: 1.2em;
+  --text-md: 1.6em;
+  --text-lg: 1.8em;
+  --title-md: 2.4em;
+  /* familias de fuentes */
+  --roboto: "Roboto", sans-serif;
+}
+
+/* ESTILOS COMUNES */
+
+html {
+  font-size: 62.5%;
+  font-family: var(--roboto);
+}
+
+h3 {
+  font-size: var(--title-md);
+}
+
+p {
+  font-size: var(--text-sm);
+}
+/* CABECERA */
+
+header {
+  background-color: var(--amarillo);
+}
+
+div.top-header {
+  padding: 5%;
+}
+
+header picture.logo {
+  display: block;
+  width: 50%;
+}
+
+header nav {
+  font-size: var(--text-sm);
+}
+
+header ul li {
+  list-style-type: none;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: var(--negro);
+}
+
+header .form .input {
+  background-color: var(--blanco);
+  border: 1px solid var(--negro);
+  color: var(--gris-oscuro);
+  padding: 2px;
+}
+
+header .form .submit {
+  background-color: var(--blanco);
+  border: 1px solid var(--negro);
+  width: 18px;
+  padding: 2px;
+}
+
+header div.top-header p {
+  text-align: center;
+}
+
+div.burger-menu {
+  text-align: center;
+}
+
+div.burger-menu i {
+  background-color: #0044aa;
+  font-size: 20px;
+  color: var(--blanco);
+  height: 40px;
+  width: 40px;
+  margin: 10px 0 20px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer article p {
+  padding: 20px;
+  text-align: center;
+}
+/* MAIN */
+
+<!--Codigo mio-->
+        
+        <!--Logo de la pagina-->
+        <img class="img_logo" src="images/logo-mercado-liebre.svg" alt="Imagen logo">
+        <!--Espacio para barra de busqueda-->
+        <p class="barraDeBusqueda">Lugar para poner barra de busqueda</p>
+        <!--texto de compra en cuota y sin tarjeta-->
+        <div class="txt_credito_sin_tarjeta">
+            <i class="fas fa-hand-holding-usd"></i>
+            
+            <p id="credito">Compra en cuotas y sin tarjeta de credito</p>
+        </div>
+        
+        <!--Esta es la barra de navegacion con los item solicitados-->
+        <nav>
+            <!--Esto se utiliza para crear listas más rapido
+                ul>li*4>-->
+            <!--Primer listado del header-->
+            <ul class="primerListado">
+                <li>
+                    <a href="Ofertas" >Ofertas</a>
+                </li>
+                <li>
+                    <a href="Oficiales">Oficiales</a> 
+                </li>
+                <li>
+                    <a href="Vender">Vender</a>
+                </li>
+            </ul>
+            <!--Segundo listado del header-->
+            <ul class="segundoListado">
+                <li>
+                    <a href="Creá tu cuenta">Creá tu cuenta</a>
+                    <i class="far fa-id-card"></i>
+                    
+                </li>
+                <li>
+                    <a href="Ingresá">Ingresá</a>
+                    <i class="fas fa-sign-in-alt"></i>
+                </li>
+                <li>
+                    <a href="Mis compras">Mis compras</a>
+                    <i class="fas fa-shopping-basket"></i>
+                </li>
+            </ul>
+    
+        </nav>
+
+        <!--Menu hamburguesa-->
+        <figure class="btn_menu_hamburguesa">
+         <i class="fas fa-bars"></i>
+        </figure>
+        
+       
+       
+    </header>
+    <!--Imagen sonbre promociones-->
+    <img class="img_promocion" src="/images/img-home-banner.jpg" alt="">
+    <!--Contenido principal de la pagina-->
+    <main>
+        <h2>Basado en tu última visita</h2>
+        <section class="seccion_basado_ultima_visita">
+            <article>
+                <img src="/images/img-cafetera-moulinex.jpg" alt="imagen de la cafetera">
+                <p id="precios">$6.770</p>
+                <p id="descuentos">40% OFF</p>
+                <p id="descripciones">Cafetera Moulinex</p>
+
+            </article>
+
+            <article>
+                <img src="/images/img-macbook-pro-2019.jpg" alt="imagen de la cafetera">
+                <p id="precios">$230.000</p>
+                <p id="descuentos">20% OFF</p>
+                <p id="descripciones">MacBook Pro 2019</p>
+            </article>
+
+            <article>
+                <img src="/images/img-samsung-galaxy-s10.jpg" alt="imagen de la cafetera">
+                <p id="precios">$70.500</p>
+                <p id="descuentos">10% OFF</p>
+                <p id="descripciones">Samsung Galaxy S10</p>
+            </article>
+            
+            <article>
+                <img src="/images/img-tv-samsung-smart.jpg" alt="imagen de la cafetera">
+                <p id="precios">$23.200</p>
+                <p id="descuentos">5% OFF</p>
+                <p id="descripciones">SmartTv Samsung 43"</p>
+            </article>
+        </section>
+ <!--Contenido footer-->
+
+        <article>
+            <h2>Paga con tarjeta o en efectivo</h2>
+            <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro! </p>
+        </article>
+
+        <article>       
+            <h2>Envío gratis desde $ 2.500</h2>
+            <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos. </p>
+        </article>
+
+        <article >
+            <h2>Seguridad, de principio a fin</h2>
+            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+
+        </article>
+                     
+        <article>
+            <h2>Copyright © 1999-2020 MercadoLiebre S.R.L.</h2>
+        </article>
+
+ <!--css oswar-->
+
+
+        .img_logo{
+            width: 100vw;
+            box-sizing:border-box
+        }
+        
+        
+        /*Agregar propiedades a barra de busqueda*/
+        .barraDeBusqueda{
+            font-family: var(--roboto-font);
+            font-size: large;
+             color: orangered;}
+        
+        /*Agregar Propiedades a titulo Compra con credito y sin tarjeta de credito*/
+        
+        .txt_credito_sin_tarjeta i{
+            display:inline;
+            margin-top: 25px;
+            margin-left: 10vw;
+            font-size: 2em
+        
+        }
+        .txt_credito_sin_tarjeta p{
+            display: inline ;
+            margin-top: 25px;
+            margin-left: 1vw;
+            font-family: var(--roboto-font);
+            font-size: 24px;
+            color: #666;
+            font-weight: bold;
+        }
+        
+        
+        /*Agregar propiedades al menu de navegacion */
+        
+        .primerListado{
+            font-size: 30px;
+            font-family: var(--roboto-font);
+            color:#666;
+        
+        }
+        
+        .segundoListado a{
+            display:inline;
+            margin-top: 40px;
+            font-family: var(--roboto-font);
+            font-size: 30px;
+        
+        }
+        .segundoListado i{
+            font-size: 2em;
+        }
+        
+        /*Agregar propiedades al menu hamburguesa*/
+        
+        
+        .btn_menu_hamburguesa{
+            margin-left: 45.5vw;
+            margin-right: 49.5vw;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            padding-right: 5px;
+            padding-left: 5px;
+            padding-bottom: 5px;
+            padding-top: 10px;
+            font-size: 60px;
+            height: 90px;
+            width: 90px;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            background-color:blue;
+            box-sizing: border-box;   
+        }
+        
+        /*Agregar propiedades a la imagen de promocion*/
+        .img_promocion{
+        width: 100vw;
+        box-sizing:border-box
+        
+        }
+        
+        /*Propiedades visuales del contendido */
+        .seccion_basado_ultima_visita img{
+            width: 100vw;
+            padding:10px;
+            box-sizing:border-box;
+            margin-left: center;
+            
+        }
+        .seccion_basado_ultima_visita #precios{
+            font-family: var(--roboto-font);
+            font-size:18px ;
+            font-weight: 900;
+            margin-left: center;
+            box-sizing:border-box
+            
+        }
+        .seccion_basado_ultima_visita #descuentos{
+            font-family: var(--roboto-font);
+            font-size:16px ;
+            font-weight: 900;
+            box-sizing:border-box
+            
+        }
+        .seccion_basado_ultima_visita #descripciones{
+            font-family: var(--roboto-font);
+            font-size:16px ;
+            font-weight: 900;
+            box-sizing:border-box
+            
+        }
+        
+        footer{
+            font-family: var(--roboto-font);
+            font-size: 16px;
+            text-align: center;
+            display: inline;    
+        }
+                
+
+           
+
+
+    
+       
